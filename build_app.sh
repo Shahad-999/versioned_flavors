@@ -69,14 +69,14 @@ echo -e "${GREEN_BOLD}✅ App Bundle saved to: $appbundle_path${NC}"
 
 
 # Build IPA
-# echo -e "${YELLOW_BOLD} Building IPA (iOS)${NC}"
+echo -e "${YELLOW_BOLD} Building IPA (iOS)${NC}"
 
-# fvm flutter build ipa --release --flavor $env \
-# --build-name $build_name \
-# --build-number $build_number
+fvm flutter build ipa --release --flavor $env \
+--build-name $build_name \
+--build-number $build_number
 
-# ipa_path="$PROJECT_ROOT/build/ios/ipa/"
-# echo -e "${GREEN_BOLD}✅ IPA build completed${NC}"
+ipa_path="$PROJECT_ROOT/build/ios/ipa/"
+echo -e "${GREEN_BOLD}✅ IPA build completed${NC}"
 
 
 
