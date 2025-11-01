@@ -1,0 +1,9 @@
+development:
+  build_name: 0.1.0-development
+  build_number: 47
+staging:
+  build_name: 0.1.0-staging
+  build_number: 47
+production:
+  build_name: 0.1.2-production
+  build_number: 45

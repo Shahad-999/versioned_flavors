@@ -1,0 +1,26 @@
+flavors:
+  development:
+    app:
+      name: versioned_flavors development
+
+    android:
+      applicationId: "com.example.versioned_flavors.development"
+    ios:
+      bundleId: "com.example.versioned_flavors.development"
+  production:
+    app:
+      name: versioned_flavors production
+
+    android:
+      applicationId: "com.example.versioned_flavors.production"
+    ios:
+      bundleId: "com.example.versioned_flavors.production"
+
+  staging:
+    app:
+      name: versioned_flavors staging
+
+    android:
+      applicationId: "com.example.versioned_flavors.staging"
+    ios:
+      bundleId: "com.example.versioned_flavors.staging"
